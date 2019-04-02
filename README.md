@@ -1,6 +1,6 @@
 # `vim-bbcode`
 
-BBCode syntax highlighting for Vim.
+BBCode syntax for Vim.
 
 ## Features
 
