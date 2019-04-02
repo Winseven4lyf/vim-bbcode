@@ -2,7 +2,7 @@
 " Language:		BBCode
 " Maintainer:		Quinn Johnson <winseven4lyf@gmail.com>
 " Repository:		https://github.com/Winseven4lyf/vim-bbcode
-" Last Change:		2019 April 1
+" Last Change:		2019 April 2
 " Credits:		Jorge Maldonado Ventura <jorgesumle@freakspot.net> and Claudio Fleiner <claudio@fleiner.com>, maintainers of the HTML syntax file included with Vim.
 " Acknowledgements:	Tom Link <micathom@gmail.com>, creator of the bbcode script on vim.org, which isn't available via Git, making it difficult to use with Dein.
 
