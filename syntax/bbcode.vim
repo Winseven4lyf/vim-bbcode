@@ -25,6 +25,7 @@ hi def link	bbcodeValue	String
 syn region	bbcodeEndTag	start=+\[/+ end=+\]+		contains=bbcodeTagN,bbcodeTagError,@NoSpell
 hi def link	bbcodeEndTag	Identifier
 syn region	bbcodeTag	start=+\[[^/]+ end=+\]+		fold contains=bbcodeTagN,bbcodeTagError,bbcodeValue,@NoSpell,bbcodeString,bbcodeArg
+syn match	bbcodeTag	+^\s*\*+
 hi def link	bbcodeTag	Function
 syn match	bbcodeTagN	contained +\[\h\++hs=s+1	contains=bbcodeTagName
 syn match	bbcodeTagN	contained +\[/\h\++hs=s+2	contains=bbcodeTagName
