@@ -82,8 +82,8 @@ hi def link	bbcodeItalicUnderline		bbcodeUnderlineItalic
 syn region	bbcodeItalicUnderlineBold	contained start=+\[b\>+ end=+\[/u\]+me=e-4	contains=@bbcodeTop
 hi def link	bbcodeItalicUnderlineBold	bbcodeBoldUnderlineItalic
 
-syn region	bbcodeCode			start=+\[code\>+ end=+\[/code\]+me=e-7		contains=@bbcodeTop,@NoSpell
-syn region	bbcodePre			start=+\[pre\>+ end=+\[/pre\]+me=e-6		contains=@bbcodeTop,@NoSpell
+syn region	bbcodeCode			start=+\[code\>+ end=+\[/code\]+me=e-7		contains=@NoSpell
+syn region	bbcodePre			start=+\[pre\>+ end=+\[/pre\]+me=e-6		contains=@NoSpell
 
 syn match	bbcodeLeadingSpace		+^\s\++ contained
 hi def link	bbcodeLeadingSpace		None
